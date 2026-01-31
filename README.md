@@ -1,5 +1,4 @@
 ```
-public static <E extends Comparable<E>> E getMaxElement(List<E> list)
 
 
 ## TODO: Complete the Following Sections in the Code
@@ -13,6 +12,8 @@ Implement a `User` class with the following specifications:
 
 ### 2. Implement the getMaxElement Method
 Complete the `getMaxElement` method in the test harness.
+  public static <E extends Comparable<E>> E getMaxElement(List<E> list)
+
 
 ## Expected Output
 When your implementation is complete, you should get the following results:
