@@ -1,5 +1,6 @@
-public static <E extends Comparable<E>> E getMaxElement(List<E> list)
 ```
+public static <E extends Comparable<E>> E getMaxElement(List<E> list)
+
 
 ## TODO: Complete the Following Sections in the Code
 
@@ -15,7 +16,9 @@ Complete the `getMaxElement` method in the test harness.
 
 ## Expected Output
 When your implementation is complete, you should get the following results:
-```
+
 2026-01-31 14:26:16 DEBUG App:33 - String List Compare Result: zeowl
 2026-01-31 14:26:16 DEBUG App:36 - Integer List Compare Result: 10000
 2026-01-31 14:26:16 DEBUG App:39 - User Defined List Compare Result: sally, 103
+
+```
