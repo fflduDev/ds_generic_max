@@ -12,9 +12,16 @@ Required Method Signature
 public static <E extends Comparable<E>> E getMaxElement(List<E> list)
 
 
+COMPLETE THE TODO: SECTION IN THE CODE:
+
+Create a User class:
+•	String name
+•	int age
+•	Implements Comparable<User>
+•	Users must be compared by age
 
 
-
+Implement the getMaxElement method in the testHarness
 
 
 
