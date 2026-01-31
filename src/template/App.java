@@ -36,13 +36,13 @@ public class App {
 		logger.debug("Integer List Compare Result: " + iResult);
 
  		User uResult = getMaxElement(userDefinedTypeList );
-	//	logger.debug("User Defined List Compare Result: " + uResult.getName() + ", " + uResult.getAge());
+		logger.debug("User Defined List Compare Result: " + uResult.getName() + ", " + uResult.getAge());
  	}
 
 	//TODO
 	//Implement a generic static method that returns the maximum element in a List 
 	public static <E extends Comparable<E>> E getMaxElement(List<E> list) {
-	   return null;
+	   
 	}
 
 	 
@@ -63,7 +63,13 @@ public class App {
 		integerList.add(222);
 		integerList.add(10000);
 		integerList.add(12);
-	 
+	
+		userDefinedTypeList.add(new User("rob", 49));
+		userDefinedTypeList.add(new User("sally", 103));
+		userDefinedTypeList.add(new User("tim", 6));
+		userDefinedTypeList.add(new User("marty", 37));
+		userDefinedTypeList.add(new User("pete", 21));
+
 	}
 }	
  
